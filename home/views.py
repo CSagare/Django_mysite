@@ -18,3 +18,4 @@ def contact(request):
 def project(request):
     # return render(request, 'home.html', {"hello world"})
     return HttpResponse("Hello, world. You're at the project page.(/a)")
+                                        
